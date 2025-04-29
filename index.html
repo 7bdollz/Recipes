@@ -5,14 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Author" content="hacker_x" />
     <title>odin-recipes</title>
+    <style>
+      .spaghetti{
+        display: flex;
+        padding-bottom: 10px;
+        padding: 5px;
+      }
+      .jollof{
+        display: flex;
+        padding: 5px;
+        padding-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
-    <header>
-      <h1>Odin Recipes</h1>
+    <header style="display: flex">
+      <div class="logo"><img src="Recipes_images/logo.jpeg" alt="" /></div>
+      <h1 style="float: right"><strong>Odin Recipes</strong></h1>
     </header>
     <nav>
-      <a href="my_recipes/spagheti_recipe.html">Spaghetti Recipes</a>
-      <a href="my_recipes/jollof_recipe.html">naija jollof recipe</a>
+      <div class="spaghetti">
+        <img src="Recipes_images/spaghetti.jpg" height="100%" width="100px" style="border-radius: 10px;" alt="" />
+        <p>Do you crave that delicious homemade spaghetti <br>but confused on how to make it,
+           or you are just looking to up your <em>cooking</em>skills?,<br>dont worry we've got you coverd with our</em>
+          <a style="text-decoration: none" href="my_recipes/spagheti_recipe.html"
+          >Spaghetti Recipes</a
+        ></p>
+
+      </div>
+      <div class="jollof">
+        <img src="Recipes_images/jollof.jpg" height="100%" width="100px" style="border-radius: 10px;" alt="" />
+        <p>
+          you must have tasted that delicious smoky party jollof and wonder how its made. <br>well its not magic,you too can make it,all you just need is our <a style="text-decoration: none" href="my_recipes/jollof_recipe.html"
+          >naija jollof recipe</a
+        >
+        </p>
+        
+      </div>
     </nav>
   </body>
 </html>
